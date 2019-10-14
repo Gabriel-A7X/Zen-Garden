@@ -9,12 +9,17 @@
 
 
 /* basic elements */
+
+@font-face {
+    font-family: Guardians;
+    src: url(Guardians.ttf);
+}
 html {
+	font-family: Guardians;
 	margin: 0;
 	padding: 0;
 	}
 body { 
-	font: Arial, sans-serif;
 	line-height: 1.88889;
 	color: #D4CDDC; 
 	background-image: url(espaco.jpg);
@@ -26,7 +31,7 @@ p {
 	text-align: justify;
 	}
 h3 { 
-	font: italic normal 1.4em Arial, sans-serif;
+	font-family: Guardians, 1.4em Arial, sans-serif;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
 	color: #000000;
@@ -52,6 +57,7 @@ abbr {
 
 /* specific divs */
 .page-wrapper {  
+	background: transparent url(580b585b2edbce24c47b270f.png) no-repeat top left;
 	padding: 0 175px 0 110px;  
 	margin: 0; 
 	position: relative;
@@ -98,7 +104,9 @@ header {
 	float: left;
 	}
 .summary p {
-	font: italic 1.1em/2.2 Arial; 
+	color: #000000;
+	font: Guardians ;
+	font-size: 10pt; 
 	text-align: center;
 	}
 
@@ -125,7 +133,7 @@ footer a:link, footer a:visited {
 	right: 0;
 	}
 .sidebar .wrapper { 
-	font: 10px verdana, sans-serif; 
+	font: 10px Guardians, sans-serif; 
 	background: transparent  top left repeat-y; 
 	padding: 10px; 
 	margin-top: 150px; 
@@ -184,7 +192,8 @@ footer a:link, footer a:visited {
 
 
 .extra1 { 
-	background: transparent url(s3.jpg) no-repeat top left; 
+	background: url(Galaxy-PNG-Photo.png);
+	background-size: 100% auto;
 	position: absolute; 
 	top: 40px; 
 	right: 0; 
