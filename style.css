@@ -14,9 +14,9 @@ html {
 	padding: 0;
 	}
 body { 
-	font: 75% georgia, sans-serif;
+	font: Arial, sans-serif;
 	line-height: 1.88889;
-	color: #000000; 
+	color: #D4CDDC; 
 	background-image: url(espaco.jpg);
 	margin: 0; 
 	padding: 0;
@@ -26,24 +26,24 @@ p {
 	text-align: justify;
 	}
 h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
+	font: italic normal 1.4em Arial, sans-serif;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
-	color: #7D775C;
+	color: #000000;
 	}
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #B7A5DF;
+	color: #000000;
 	}
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #D4CDDC;
+	color: #000000;
 	}
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
-	color: #9685BA;
+	color: #000000;
 	}
 abbr {
 	border-bottom: none;
@@ -98,7 +98,7 @@ header {
 	float: left;
 	}
 .summary p {
-	font: italic 1.1em/2.2 georgia; 
+	font: italic 1.1em/2.2 Arial; 
 	text-align: center;
 	}
 
@@ -176,14 +176,15 @@ footer a:link, footer a:visited {
 	list-style-type: none;
 	}
 .sidebar li a:link {
-	color: #988F5E;
+	color: #000000;
 	}
 .sidebar li a:visited {
-	color: #B3AE94;
+	color: #000000;
 	}
 
 
 .extra1 { 
+	background: transparent url(s3.jpg) no-repeat top left; 
 	position: absolute; 
 	top: 40px; 
 	right: 0; 
